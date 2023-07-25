@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscador de películas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="search-container">
+        <h1 class="title">Buscador de peliculas</h1>
+        <div class="search">
+          <input type="search" class="input-search" id="input-movie" />
+          <button class="btn-search" id="btn-search">Buscar</button>
+        </div>
+      </div>
+
+      <div class="search-results" id="data-container">
+        <div class="movie-card">
+          <div class="movie-cardPoster">
+            <img
+              src="https://image.tmdb.org/t/p/w500/oZRVDpNtmHk8M1VYy1aeOWUXgbC.jpg"
+              alt="movie"
+            />
+          </div>
+          <div class="movie-data">
+            <h3 class="movie-dataTitle">Terminator</h3>
+
+            <p class="title-description">
+              Idioma original: <span class="content-description">EN</span>
+            </p>
+            <p class="title-description">
+              Título original:
+              <span class="content-description">Terminator</span>
+            </p>
+            <p class="title-description">Descripción</p>
+            <p class="overview">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Veritatis, blanditiis. Quam dolorem ipsum minima dolor corrupti,
+              blanditiis officia dolores sunt nobis voluptas porro quibusdam
+              aperiam fugit error, voluptatibus ipsam ex.
+            </p>
+
+            <p class="title-description">
+              Fecha de Estreno:
+              <span class="content-description">2015-08-19</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

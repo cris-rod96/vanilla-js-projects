@@ -1,0 +1,35 @@
+{
+    "roles": [
+        {
+            "id_rol": "rol01",
+            "rol": "Administrador"
+        },{
+            "id_rol": "rol02",
+            "rol": "Usuario"
+        }
+    ],
+    "usuarios": [
+        {
+            "id_usuario": null,
+            "nombre": null,
+            "apellido": null,
+            "email": null,
+            "telefono": null,
+            "username": null,
+            "password": null,
+            "id_rol": "rol01"
+        }
+    ],
+    "contactos": {
+        "id_usuario": [
+            {
+                "id_contacto": null,
+                "nombre": null,
+                "apellido": null,
+                "email": null,
+                "telefono": null
+            }
+
+        ]
+    }
+}

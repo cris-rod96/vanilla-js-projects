@@ -1,0 +1,14 @@
+// API KEY
+abc5f8639c3356e8dc013b9b35cc14c1
+
+
+// Token de acceso de lectura a la API
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhYmM1Zjg2MzljMzM1NmU4ZGMwMTNiOWIzNWNjMTRjMSIsInN1YiI6IjY0YmQ4YzczYWM2Yzc5MDhkZTVmYTg5ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Gdr7SD6NEMGxzzRVUUgY_x28LQHhcUqEm1an9Af3oZE
+
+
+// ENDPOINT
+https://api.themoviedb.org/3/search/movie?query=${movie}&api_key=${api_key}
+
+
+/// URL IMAGES
+https://image.tmdb.org/t/p/w500/${image_path}

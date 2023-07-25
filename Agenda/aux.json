@@ -1,0 +1,29 @@
+{
+  "roles": [
+    {
+      "id_rol": "rol01",
+      "rol": "Administrador"
+    },
+    {
+      "id_rol": "rol02",
+      "rol": "Usuario"
+    }
+  ],
+  "usuarios": [
+    {
+      "id_usuario": "administrador_01",
+      "nombre": "Cristhian",
+      "apellido": "Rodríguez",
+      "email": "crisrodam1996@gmail.com",
+      "telefono": "0981135286",
+      "username": "crisROD96",
+      "password": "a12b32*",
+      "id_rol": "rol01"
+    }
+  ],
+  "contactos": {},
+  "currentSession": {
+    "id_usuario_current": null,
+    "dateLogin": null
+  }
+}

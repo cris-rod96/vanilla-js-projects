@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios JS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Formulario de Registro</h1>
+      <form class="form" id="form">
+        <div class="form-group">
+          <label for="" class="form-groupLabel">Nombre</label>
+          <input type="text" class="form-groupInput" id="name" />
+          <div class="error-message" id="nameError"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="" class="form-groupLabel">Email</label>
+          <input type="email" class="form-groupInput" id="email" />
+          <div class="error-message" id="emailError"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="" class="form-groupLabel">Contraseña</label>
+          <input type="password" class="form-groupInput" id="password" />
+          <div class="error-message" id="passError"></div>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore-compat.js"></script>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

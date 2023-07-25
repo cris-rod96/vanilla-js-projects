@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #e0dddd;
+      }
+
+      .container-form {
+        width: 600px;
+        background-color: white;
+        margin: 10px auto;
+        padding: 20px;
+
+        border-radius: 12px;
+        box-shadow: 10px 10px 20px lightgray;
+      }
+      .container-form > h1 {
+        font-size: 40px;
+        text-align: center;
+        margin: 40px 0;
+      }
+
+      .box-form {
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 70% 30%);
+        gap: 10px;
+
+        height: 40px;
+      }
+
+      .input-city {
+        padding-left: 10px;
+        font-size: 18px;
+      }
+
+      .btn-search {
+        background-color: rgb(8, 88, 41);
+        color: white;
+        text-transform: uppercase;
+        border: 0;
+        cursor: pointer;
+        border: 2px solid rgb(8, 88, 41);
+        border-radius: 8px;
+      }
+
+      .container-card {
+        width: 600px;
+        margin: 50px auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 10px 10px 20px lightgrey;
+      }
+      .card {
+        display: grid;
+        gap: 20px;
+      }
+
+      .card > .clima {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+
+      .city {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .temps {
+        display: grid;
+        padding: 10px;
+        gap: 10px;
+        text-align: center;
+        border: 2px solid rgb(214, 211, 211);
+        box-shadow: 10px 10px 20px rgb(214, 211, 211);
+        border-radius: 12px;
+        color: white;
+      }
+      .tempe {
+        background-color: grey;
+        font-weight: bold;
+      }
+
+      .max {
+        background-color: rgb(180, 57, 57);
+        font-weight: bold;
+      }
+
+      .min {
+        background-color: skyblue;
+        font-weight: bold;
+      }
+
+      .temp {
+        font-size: 24px;
+      }
+      .box-weather {
+        text-align: center;
+      }
+      .box-weather > img {
+        width: 100px;
+      }
+      .box-weather .weather {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .hidden {
+        display: none;
+      }
+      .show {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-form">
+      <h1>Aplicación del clima</h1>
+      <div class="box-form">
+        <input type="text" class="input-city" id="input-city" />
+        <button class="btn-search" id="btn-search" type="button">Buscar</button>
+      </div>
+    </div>
+
+    <div class="container-card" id="container-card"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

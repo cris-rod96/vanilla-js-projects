@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro | Agenda</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="form-container">
+        <div class="card">
+          <div class="card-header">
+            <h2>Registro de usuario</h2>
+          </div>
+          <div class="card-body">
+            <form action="" class="form" id="formulario-registro">
+              <div class="form-group double-group">
+                <div class="form-group">
+                  <label for="" class="form-groupLabel">Nombre</label>
+                  <input
+                    type="text"
+                    class="form-groupInput"
+                    id="input-nombre"
+                  />
+                  <div class="message-error" id="error-nombre"></div>
+                </div>
+
+                <div class="form-group">
+                  <label for="" class="form-groupLabel">Apellido</label>
+                  <input
+                    type="text"
+                    class="form-groupInput"
+                    id="input-apellido"
+                  />
+                  <div class="message-error" id="error-apellido"></div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="" class="form-groupLabel">Email</label>
+                <input type="email" class="form-groupInput" id="input-email" />
+                <div class="message-error" id="error-email"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="" class="form-groupLabel">Teléfono</label>
+                <input type="tel" class="form-groupInput" id="input-tel" />
+                <div class="message-error" id="error-tel"></div>
+              </div>
+
+              <div class="form-group double-group">
+                <div class="form-group">
+                  <label for="" class="form-groupLabel">Usuario</label>
+                  <input
+                    type="text"
+                    class="form-groupInput"
+                    id="input-usuario"
+                  />
+                  <div class="message-error" id="error-user"></div>
+                </div>
+
+                <div class="form-group">
+                  <label for="" class="form-groupLabel">Contraseña</label>
+                  <input type="text" class="form-groupInput" id="input-pass" />
+                  <div class="message-error" id="error-pass"></div>
+                </div>
+              </div>
+
+              <div class="form-groupButtons">
+                <button
+                  type="submit"
+                  class="btn btn-iniciar"
+                  id="btn-registrar"
+                >
+                  Registrarme
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="card-footer">
+            <p class="no-account">
+              ¿Ya tienes una cuenta? Haz click <a href="#">aquí</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/registro.js"></script>
+  </body>
+</html>

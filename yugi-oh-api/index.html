@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      .main-container {
+        width: 90%;
+        margin: 20px auto;
+      }
+
+      .main-container .title {
+        font-size: 60px;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      .cards-container {
+        border: 2px solid rgb(226, 226, 226);
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px lightgray;
+        padding: 20px;
+
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+      }
+
+      .card-title {
+        font-size: 23px;
+        text-align: center;
+        margin: 20px 0;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <h1 class="title">Yugi-OH</h1>
+
+      <div class="container-filter">
+        <span>¿Cuantas cartas deseas mostrar?</span>
+        <select name="" id="cantidad-cards">
+          <option>5</option>
+          <option>10</option>
+          <option>15</option>
+          <option>20</option>
+          <option>25</option>
+          <option>30</option>
+          <option>35</option>
+          <option>40</option>
+          <option>50</option>
+          <option>100</option>
+          <option>150</option>
+          <option>300</option>
+          <option>600</option>
+          <option>900</option>
+          <option>1000</option>
+        </select>
+      </div>
+      <div class="cards-container" id="cards-container"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

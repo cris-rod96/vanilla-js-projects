@@ -1,0 +1,6 @@
+# API KEY
+70d933772cce96d97867fd7142255b7b
+
+# API CALL
+# ENDPOINT
+https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
